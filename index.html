@@ -27,7 +27,7 @@
       top: 0;
     }
     nav {
-      max-width: 900px;
+      max-width: 980px;
       margin: 0 auto;
       display: flex;
       gap: 16px;
@@ -39,7 +39,7 @@
       font-weight: 600;
     }
     main {
-      max-width: 900px;
+      max-width: 980px;
       margin: 0 auto;
       padding: 40px 24px 64px;
     }
@@ -48,10 +48,18 @@
       font-size: 36px;
       letter-spacing: 0.2px;
     }
+    h2 {
+      margin: 28px 0 10px;
+      font-size: 22px;
+    }
     p {
       margin: 0 0 16px;
       line-height: 1.6;
-      color: var(--ink);
+    }
+    ul {
+      margin: 0 0 16px 18px;
+      padding: 0;
+      line-height: 1.6;
     }
     .card {
       background: var(--card);
@@ -80,8 +88,17 @@
       font-family: "Arial", sans-serif;
       font-weight: 700;
     }
+    .btn {
+      display: inline-block;
+      padding: 10px 16px;
+      border-radius: 8px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
     footer {
-      max-width: 900px;
+      max-width: 980px;
       margin: 0 auto;
       padding: 24px;
       color: var(--muted);
@@ -93,21 +110,38 @@
   <header>
     <nav>
       <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="about.html">CV</a>
+      <a href="teaching.html">Teaching Portfolio</a>
     </nav>
   </header>
 
   <main>
     <div class="card">
       <h1>Olivia V. J. Levinsen</h1>
-      <p>I am a PhD Fellow at the Department of Political Science, University of Copenhagen. My research focuses on women’s political representation within the ODER (Origins of Descriptive Representation) project.</p>
+      <p>I am a PhD Fellow at the Department of Political Science, University of Copenhagen. My research focuses on women's political representation within the ODER (Origins of Descriptive Representation) project.</p>
+
       <p>Find me online:</p>
       <div class="social">
         <a href="mailto:olev@ifs.ku.dk" aria-label="Email">@</a>
         <a href="https://bsky.app/profile/olivialevinsen.bsky.social" aria-label="Bluesky">B</a>
         <a href="https://twitter.com/olivialevinsen" aria-label="Twitter" class="x">X</a>
       </div>
+
+      <h2>CV</h2>
+      <p><a class="btn" href="CV_Olivia__Copy_.pdf">Download CV</a></p>
+
+      <h2>Working Papers</h2>
+      <ul>
+        <li>Cherries on Top? The trajectory of party elites' nomination of women candidates (with Frederik Kjøller, Anna Lund &amp; Frederik Hjorth)</li>
+        <li>The Effects of Electing Working Class Candidates (with Frederik Kjøller, Anna Lund &amp; Frederik Hjorth)</li>
+        <li>The Transformation of Gendered Political Recruitment (with Karina Kosiara-Pedersen)</li>
+        <li>"Feminist icon" or "not a sister"? Women leaders and their (better) cabinets (with Louisa Boulaziz)</li>
+      </ul>
+
+      <h2>Papers in Danish</h2>
+      <ul>
+        <li>Deskriptiv og substantiel repræsentation i Folketinget (with Frederik Kjøller, Anna Lund &amp; Frederik Hjorth). English: Descriptive and substantive representation in the Danish Parliament.</li>
+        <li>Sikkerhedspolitisk barometer: CMS Survey 2023. English: Security policy barometer: CMS Survey 2023 (with Kristian Søby Kristensen, Johan Christensen &amp; Niels Byrjalsen)</li>
+      </ul>
     </div>
   </main>
 
